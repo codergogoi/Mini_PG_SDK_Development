@@ -27,13 +27,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="83"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Order" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eyb-cA-W2e">
-                                        <rect key="frame" x="10" y="25" width="355" height="22"/>
+                                        <rect key="frame" x="10" y="35" width="355" height="22"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="18"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i9W-qd-fg6">
-                                        <rect key="frame" x="15" y="22" width="40" height="41"/>
+                                        <rect key="frame" x="15" y="32" width="40" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="gFW-MC-fIi"/>
                                             <constraint firstAttribute="width" constant="40" id="o6O-nu-hxT"/>
@@ -41,7 +41,7 @@
                                         <state key="normal" image="menu"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BkH-YC-ieZ">
-                                        <rect key="frame" x="317" y="22" width="45" height="41"/>
+                                        <rect key="frame" x="317" y="32" width="45" height="41"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="41" id="Lmi-Vo-gb3"/>
                                             <constraint firstAttribute="width" constant="45" id="ZGP-vQ-Q5E"/>
@@ -52,12 +52,12 @@
                                 <color key="backgroundColor" red="0.92156862750000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="i9W-qd-fg6" firstAttribute="leading" secondItem="ggu-UL-U6e" secondAttribute="leading" constant="15" id="6wO-dz-pav"/>
-                                    <constraint firstAttribute="bottom" secondItem="BkH-YC-ieZ" secondAttribute="bottom" constant="20" id="Eka-lC-7hK"/>
+                                    <constraint firstAttribute="bottom" secondItem="BkH-YC-ieZ" secondAttribute="bottom" constant="10" id="Eka-lC-7hK"/>
                                     <constraint firstAttribute="trailing" secondItem="Eyb-cA-W2e" secondAttribute="trailing" constant="10" id="Tb4-Wy-kCG"/>
-                                    <constraint firstItem="Eyb-cA-W2e" firstAttribute="top" secondItem="ggu-UL-U6e" secondAttribute="top" constant="25" id="UsH-H1-bXZ"/>
+                                    <constraint firstItem="Eyb-cA-W2e" firstAttribute="top" secondItem="ggu-UL-U6e" secondAttribute="top" constant="35" id="UsH-H1-bXZ"/>
                                     <constraint firstItem="Eyb-cA-W2e" firstAttribute="leading" secondItem="ggu-UL-U6e" secondAttribute="leading" constant="10" id="cgc-wX-Wce"/>
                                     <constraint firstAttribute="trailing" secondItem="BkH-YC-ieZ" secondAttribute="trailing" constant="13" id="cvj-uc-IGU"/>
-                                    <constraint firstAttribute="bottom" secondItem="i9W-qd-fg6" secondAttribute="bottom" constant="20" id="dfd-ja-CKy"/>
+                                    <constraint firstAttribute="bottom" secondItem="i9W-qd-fg6" secondAttribute="bottom" constant="10" id="dfd-ja-CKy"/>
                                     <constraint firstAttribute="height" constant="83" id="iex-aI-dg9"/>
                                 </constraints>
                             </view>
