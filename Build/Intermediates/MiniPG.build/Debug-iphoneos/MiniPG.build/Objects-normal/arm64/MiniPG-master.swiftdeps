@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "70e568000612666d1483d85a96467c07"
+build_time: [1535804393, 717409000]
+inputs:
+  "/Users/akbarmac/Desktop/MiniPG/MiniPGFramework/MiniPG/MiniPG/PaymentProcessController.swift": [1535711640, 0]
+  "/Users/akbarmac/Desktop/MiniPG/MiniPGFramework/MiniPG/MiniPG/MiniPGPayment.swift": [1535712024, 0]
+  "/Users/akbarmac/Desktop/MiniPG/MiniPGFramework/MiniPG/MiniPG/HashManager.swift": [1532349197, 0]
+  "/Users/akbarmac/Desktop/MiniPG/MiniPGFramework/MiniPG/MiniPG/AppExtensions.swift": [1535710332, 0]

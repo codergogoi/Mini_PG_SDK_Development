@@ -40,7 +40,6 @@ public final class MiniPGPayment: NSObject, PaymentConfirmationDelegate{
     
     public var delegate: PaymentHandshakDelegate?
     
-    
     public override init() {
         self.hashManager = HashManager()
         self.hashManager?.initWithURL(url: baseURL)

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "2fe848f602a793614d1eb59070458064"
+build_time: [1536045897, 762130000]
+inputs:
+  "/Users/akbarmac/Desktop/MiniPG/MiniPGDemo/MiniPGDemo/MiniPGDemo/ViewController.swift": [1536045896, 0]
+  "/Users/akbarmac/Desktop/MiniPG/MiniPGDemo/MiniPGDemo/MiniPGDemo/AppDelegate.swift": [1532346136, 0]

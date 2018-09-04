@@ -1,0 +1,10 @@
+framework module MiniPG {
+  umbrella header "MiniPG.h"
+
+  export *
+  module * { export * }
+}
+
+module MiniPG.__Swift {
+    exclude header "MiniPG-Swift.h"
+}

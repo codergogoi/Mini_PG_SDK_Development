@@ -1,0 +1,431 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaymentHandshakDelegate"
+- "PaymentConfirmationDelegate"
+- "MiniFields"
+- "MiniPGPayment"
+provides-nominal:
+- "6MiniPG23PaymentHandshakDelegateP"
+- "6MiniPG27PaymentConfirmationDelegateP"
+- "6MiniPG0A6FieldsV"
+- "6MiniPG0A9PGPaymentC"
+provides-member:
+- ["6MiniPG23PaymentHandshakDelegateP", ""]
+- ["6MiniPG27PaymentConfirmationDelegateP", ""]
+- ["6MiniPG0A6FieldsV", ""]
+- ["6MiniPG0A9PGPaymentC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- "Double"
+- "Error"
+- "HashManager"
+- "MiniFields"
+- "MiniPGPayment"
+- "NSObject"
+- "PaymentConfirmationDelegate"
+- "PaymentHandshakDelegate"
+- !private "PaymentProcessController"
+- "String"
+- "StringLiteralType"
+- "UINavigationController"
+- !private "UIStoryboard"
+- "UIViewController"
+- !private "print"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "init"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "HashManager"]
+- !private ["s7CVarArgP", "MiniFields"]
+- !private ["s7CVarArgP", "PaymentProcessController"]
+- !private ["s7CVarArgP", "UIStoryboard"]
+- !private ["s7CVarArgP", "baseURL"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "didFailedPayment"]
+- ["s7CVarArgP", "didSuccessPayment"]
+- !private ["s7CVarArgP", "generateHash"]
+- !private ["s7CVarArgP", "hashManager"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initWithURL"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "requestFields"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "HashManager"]
+- !private ["s28CustomDebugStringConvertibleP", "MiniFields"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentProcessController"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "baseURL"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "didFailedPayment"]
+- ["s28CustomDebugStringConvertibleP", "didSuccessPayment"]
+- !private ["s28CustomDebugStringConvertibleP", "generateHash"]
+- !private ["s28CustomDebugStringConvertibleP", "hashManager"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initWithURL"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "requestFields"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "HashManager"]
+- !private ["s23CustomStringConvertibleP", "MiniFields"]
+- !private ["s23CustomStringConvertibleP", "PaymentProcessController"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "baseURL"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "didFailedPayment"]
+- ["s23CustomStringConvertibleP", "didSuccessPayment"]
+- !private ["s23CustomStringConvertibleP", "generateHash"]
+- !private ["s23CustomStringConvertibleP", "hashManager"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initWithURL"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "requestFields"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "HashManager"]
+- !private ["s9EquatableP", "MiniFields"]
+- !private ["s9EquatableP", "PaymentProcessController"]
+- !private ["s9EquatableP", "UIStoryboard"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "baseURL"]
+- !private ["s9EquatableP", "delegate"]
+- ["s9EquatableP", "didFailedPayment"]
+- ["s9EquatableP", "didSuccessPayment"]
+- !private ["s9EquatableP", "generateHash"]
+- !private ["s9EquatableP", "hashManager"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initWithURL"]
+- !private ["s9EquatableP", "instantiateViewController"]
+- !private ["s9EquatableP", "present"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "requestFields"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["6MiniPG11HashManagerC", "generateHash"]
+- !private ["6MiniPG11HashManagerC", "init"]
+- !private ["6MiniPG11HashManagerC", "initWithURL"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "HashManager"]
+- !private ["s8HashableP", "MiniFields"]
+- !private ["s8HashableP", "PaymentProcessController"]
+- !private ["s8HashableP", "UIStoryboard"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "baseURL"]
+- !private ["s8HashableP", "delegate"]
+- ["s8HashableP", "didFailedPayment"]
+- ["s8HashableP", "didSuccessPayment"]
+- !private ["s8HashableP", "generateHash"]
+- !private ["s8HashableP", "hashManager"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initWithURL"]
+- !private ["s8HashableP", "instantiateViewController"]
+- !private ["s8HashableP", "present"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "requestFields"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["6MiniPG0A6FieldsV", "Double"]
+- ["6MiniPG0A6FieldsV", "String"]
+- ["6MiniPG0A6FieldsV", "amount"]
+- ["6MiniPG0A6FieldsV", "appID"]
+- ["6MiniPG0A6FieldsV", "currency"]
+- ["6MiniPG0A6FieldsV", "init"]
+- ["6MiniPG0A6FieldsV", "orderDesc"]
+- ["6MiniPG0A6FieldsV", "orderID"]
+- ["6MiniPG0A6FieldsV", "signature"]
+- !private ["6MiniPG0A9PGPaymentC", "Bundle"]
+- !private ["6MiniPG0A9PGPaymentC", "Double"]
+- ["6MiniPG0A9PGPaymentC", "Error"]
+- ["6MiniPG0A9PGPaymentC", "HashManager"]
+- !private ["6MiniPG0A9PGPaymentC", "MiniFields"]
+- ["6MiniPG0A9PGPaymentC", "PaymentHandshakDelegate"]
+- !private ["6MiniPG0A9PGPaymentC", "PaymentProcessController"]
+- ["6MiniPG0A9PGPaymentC", "String"]
+- ["6MiniPG0A9PGPaymentC", "UINavigationController"]
+- !private ["6MiniPG0A9PGPaymentC", "UIStoryboard"]
+- ["6MiniPG0A9PGPaymentC", "UIViewController"]
+- !private ["6MiniPG0A9PGPaymentC", "baseURL"]
+- ["6MiniPG0A9PGPaymentC", "deinit"]
+- ["6MiniPG0A9PGPaymentC", "delegate"]
+- ["6MiniPG0A9PGPaymentC", "didFailedPayment"]
+- ["6MiniPG0A9PGPaymentC", "didSuccessPayment"]
+- ["6MiniPG0A9PGPaymentC", "generatePaymentSignature"]
+- !private ["6MiniPG0A9PGPaymentC", "hashManager"]
+- ["6MiniPG0A9PGPaymentC", "init"]
+- ["6MiniPG0A9PGPaymentC", "pay"]
+- !private ["6MiniPG0A9PGPaymentC", "print"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "delegate"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "requestFields"]
+- ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "requestFields"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "HashManager"]
+- !private ["So8NSObjectC", "MiniFields"]
+- ["So8NSObjectC", "PaymentHandshakDelegate"]
+- !private ["So8NSObjectC", "PaymentProcessController"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UINavigationController"]
+- !private ["So8NSObjectC", "UIStoryboard"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "baseURL"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didFailedPayment"]
+- ["So8NSObjectC", "didSuccessPayment"]
+- !private ["So8NSObjectC", "generateHash"]
+- ["So8NSObjectC", "generatePaymentSignature"]
+- ["So8NSObjectC", "hashManager"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initWithURL"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- ["So8NSObjectC", "pay"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "requestFields"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "HashManager"]
+- !private ["So16NSObjectProtocolP", "MiniFields"]
+- !private ["So16NSObjectProtocolP", "PaymentProcessController"]
+- !private ["So16NSObjectProtocolP", "UIStoryboard"]
+- !private ["So16NSObjectProtocolP", "baseURL"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- ["So16NSObjectProtocolP", "didFailedPayment"]
+- ["So16NSObjectProtocolP", "didSuccessPayment"]
+- !private ["So16NSObjectProtocolP", "generateHash"]
+- !private ["So16NSObjectProtocolP", "hashManager"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "initWithURL"]
+- !private ["So16NSObjectProtocolP", "instantiateViewController"]
+- !private ["So16NSObjectProtocolP", "present"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "requestFields"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- ["So8NSStringC", "init"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "Bundle"]
+- ["6MiniPG27PaymentConfirmationDelegateP", "Error"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "HashManager"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "MiniFields"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "PaymentProcessController"]
+- ["6MiniPG27PaymentConfirmationDelegateP", "String"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "UIStoryboard"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "baseURL"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "delegate"]
+- ["6MiniPG27PaymentConfirmationDelegateP", "didFailedPayment"]
+- ["6MiniPG27PaymentConfirmationDelegateP", "didSuccessPayment"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "hashManager"]
+- !private ["6MiniPG27PaymentConfirmationDelegateP", "print"]
+- ["6MiniPG27PaymentConfirmationDelegateP", ""]
+- ["6MiniPG23PaymentHandshakDelegateP", "Error"]
+- ["6MiniPG23PaymentHandshakDelegateP", "String"]
+- ["6MiniPG23PaymentHandshakDelegateP", "didFailedPaymentSignature"]
+- ["6MiniPG23PaymentHandshakDelegateP", "didReceivedFailedPayment"]
+- ["6MiniPG23PaymentHandshakDelegateP", "didReceivedPayment"]
+- ["6MiniPG23PaymentHandshakDelegateP", "didReceivedPaymentSignature"]
+- !private ["6MiniPG24PaymentProcessControllerC", "delegate"]
+- !private ["6MiniPG24PaymentProcessControllerC", "requestFields"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "requestFields"]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "requestFields"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "requestFields"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "requestFields"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "requestFields"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "requestFields"]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "requestFields"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "requestFields"]
+- !private ["So16UIViewControllerC", "delegate"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "requestFields"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "HashManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MiniFields"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PaymentProcessController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baseURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "didFailedPayment"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "didSuccessPayment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "generateHash"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hashManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initWithURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestFields"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6MiniPG11HashManagerC"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "6MiniPG0A6FieldsV"
+- "6MiniPG0A9PGPaymentC"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "6MiniPG27PaymentConfirmationDelegateP"
+- "6MiniPG23PaymentHandshakDelegateP"
+- !private "6MiniPG24PaymentProcessControllerC"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So12UIStoryboardC"
+- !private "So18UITraitEnvironmentP"
+- !private "So16UIViewControllerC"
+- "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/akbarmac/Desktop/MiniPG/MiniPGFramework/MiniPG/MiniPG/MiniPG.h"
+- "/Users/akbarmac/Desktop/MiniPG/Build/Intermediates/MiniPG.build/Debug-iphoneos/MiniPG.build/unextended-module.modulemap"
+interface-hash: "5a800463b9347d187c2d10af0f2dce49"

@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/akbarmac/Desktop/MiniPG/Build/Products/Debug-iphonesimulator/MiniPG.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MiniPG-Swift.h",
+          'external-contents': "/Users/akbarmac/Desktop/MiniPG/Build/Products/Debug-iphonesimulator/MiniPG.framework/Headers/MiniPG-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MiniPG.h",
+          'external-contents': "/Users/akbarmac/Desktop/MiniPG/MiniPGFramework/MiniPG/MiniPG/MiniPG.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/akbarmac/Desktop/MiniPG/Build/Products/Debug-iphonesimulator/MiniPG.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/akbarmac/Desktop/MiniPG/Build/Intermediates/MiniPG.build/Debug-iphonesimulator/MiniPG.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
